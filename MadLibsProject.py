@@ -1,0 +1,10 @@
+verb=input("ENter a verb1:")
+verb2=input("Enter verb 2:")
+name=input("Enter a name1:")
+adjective=input("Enter an adjective:")
+adjective2=input("Enter an adjective2:")
+noun=input("enter a noun:")
+number=input("Enter a number:")
+celebrityguest=input("enter a celebrity guest:")
+
+print(f'I {verb} into my {number} day of school and saw that {celebrityguest} was there.{celebrityguest} asked for my name and i said "my name is {name}"{celebrityguest} said "its your {adjective}a day because im going to {verb2} you {noun}. I was {adjective2} but i left school and went on with my day')
