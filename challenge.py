@@ -7,6 +7,7 @@ def oddoreven(x):
         print(e)
     else: 
         print(o)
+oddoreven()
 
 
 g=("good")
@@ -26,3 +27,11 @@ def tips(x):
     else :
         print(1.25*y)
 tips(x)
+
+f=int(input("Name an integer:"))
+
+def factors(x):
+    print(f)
+    
+factors(70)
+    
