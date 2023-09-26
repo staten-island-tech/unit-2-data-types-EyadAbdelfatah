@@ -7,7 +7,7 @@ def oddoreven(x):
         print(e)
     else: 
         print(o)
-oddoreven()
+oddoreven(x)
 
 
 g=("good")
@@ -16,7 +16,7 @@ o=("okay")
 gr=("great")
 y=int(input("What was your bill?:"))
 x=(input("How was your service?:"))
-def tips(x):
+def tips():
     print({x})
     if {g}:
         print(1.2* y)
@@ -26,12 +26,28 @@ def tips(x):
         print(1.15*y)
     else :
         print(1.25*y)
-tips(x)
+tips()
 
-f=int(input("Name an integer:"))
 
-def factors(x):
-    print(f)
+def factors(x,y):
+        if x>=y:
+            if x % y ==0:
+                print(y)
+                y = y+1
+                factors(x,y)
+            else:
+                y=y+1
+                factors(x,y)
+factors(328,1)
     
-factors(70)
-    
+def greatest(a,b,c,d):
+    if a>=b:
+        if a % b ==0 :
+            b =b+1
+    if c>=d:
+        if c%d ==0:
+            d=d+1
+    if c:=d:
+        print(c,d)
+greatest(200,1,300,1)
+        
