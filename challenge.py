@@ -48,6 +48,22 @@ def greatest(a,b,c,d):
         if c%d ==0:
             d=d+1
     if c:=d:
-        print(c,d)
-greatest(200,1,300,1)
-        
+        greatest(a,b,c,d)
+
+
+westbound:bool
+eastbound:bool
+x=input("Is there westbound traffic?:")
+y=input("is there eastbound traffic?:")
+def traffic():
+    print(x)
+    print(y)
+    if x==True and y==False:
+        print("True")
+    elif x==True and y==True:
+        print("False")
+    elif x==False and y==False:
+        print("True")
+    elif x==False and y==True:
+        print("True")
+traffic()
