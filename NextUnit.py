@@ -27,3 +27,4 @@ if day_of_week == "Friday":
     print("correct")
 else:
     print("incorrect")
+

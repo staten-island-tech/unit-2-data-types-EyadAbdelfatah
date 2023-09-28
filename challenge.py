@@ -53,17 +53,29 @@ def greatest(a,b,c,d):
 
 westbound:bool
 eastbound:bool
-x=input("Is there westbound traffic?:")
-y=input("is there eastbound traffic?:")
-def traffic():
+
+def traffic(x,y):
     print(x)
     print(y)
-    if x==True and y==False:
+    if( x==True and y==False):
         print("True")
-    elif x==True and y==True:
+    elif (x==True and y==True):
         print("False")
-    elif x==False and y==False:
+    elif (x==False and y==False):
         print("True")
-    elif x==False and y==True:
+    elif (x==False and y==True):
         print("True")
-traffic()
+traffic(True,False)
+
+x=True
+y=False
+
+def truth(x,y):
+    if type(x) !=bool or type(y) !=bool:
+        print("glitch")
+    if x==y:
+        print("Flase")
+    elif x !=y:
+        print("True")
+truth(x,y)
+
