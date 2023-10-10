@@ -41,7 +41,7 @@ def factors(x,y):
 factors(328,1)
     
 def greatest(a,b,c,d):
-    if a>=b:
+    if a>=b: 
         if a % b ==0 :
             b =b+1
     if c>=d:
